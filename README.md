@@ -70,6 +70,13 @@ https://replit.com/@jerzyszajner/waiter-app
 
 Feel free to visit and interact with the live application.
 
+### Live Version on GitHub Pages
+
+This application is also available live, deployed using GitHub Pages. You can access the live version by visiting the following URL:
+
+[Live Application on GitHub Pages](https://jerzyszajner.github.io/waiter-app)
+
+Feel free to explore the application and interact with it!
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
