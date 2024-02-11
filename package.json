@@ -2,11 +2,13 @@
   "name": "waiter-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jerzyszajner.github.io/waiter-app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "5.3.1",
+    "gh-pages": "^6.1.1",
     "json-server": "0.17.3",
     "npm-run-all": "4.1.5",
     "react": "^18.2.0",
@@ -27,7 +29,9 @@
     "start:server": "json-server --port 3131 --no-cors --delay 250 --watch public/db/app.json --routes public/db/routes.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
