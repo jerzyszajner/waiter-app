@@ -1,0 +1,23 @@
+.statusContainer {
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+  }
+}
+
+.statusContainer .select {
+  width: 120px;
+  border-radius: 5px;
+}
+
+.label {
+  width: 124px;
+  color: #f8f9fa;
+  font-size: 1.4rem;
+}
+
+.stack {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}

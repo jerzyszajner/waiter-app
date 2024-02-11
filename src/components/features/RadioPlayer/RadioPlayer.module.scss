@@ -1,0 +1,66 @@
+/* Container for volume icon and slider */
+.volume-container {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+/* Volume icon styling */
+.volume-icon {
+    font-size: 1.3rem;
+    color: #3eb935;
+    cursor: pointer;
+    margin-right: 3px;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Volume slider styling */
+.volume-slider {
+    -webkit-appearance: none;
+    width: auto;
+    flex-grow: 1;
+    background: transparent;
+    margin-left: 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+.volume-slider:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Webkit slider thumb */
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #3eb935;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+/* Webkit slider track */
+.volume-slider::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #ffffff8f;
+    border-radius: 5px;
+}
+
+/* Firefox slider thumb */
+.volume-slider::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #878385;
+    cursor: pointer;
+}
+
+/* Firefox slider track */
+.volume-slider::-moz-range-track {
+    height: 5px;
+    background: #928c8c;
+    border-radius: 5px;
+}
