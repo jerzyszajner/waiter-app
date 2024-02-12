@@ -66,8 +66,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 Additionally, this app has been deployed on Replit, and you can access it through the following link:
-https://replit.com/@jerzyszajner/waiter-app
-
+[Waiter-App](https://5b2f05e3-e3cb-459a-b2db-51b5fd2ff700-00-151ncjxa418wq.spock.replit.dev/)
 Feel free to visit and interact with the live application.
 
 ### Live Version on GitHub Pages
