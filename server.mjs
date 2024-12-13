@@ -4,8 +4,7 @@ import cors from "cors"; // Import cors
 const server = jsonServer.create();
 const router = jsonServer.router("public/db/app.json");
 
-// Use CORS middleware
-server.use(cors()); // Add CORS middleware to allow requests from different origins
+server.use(cors({ origin: "https://waiter-app-rbef.onrender.com" }));
 
 const middlewares = jsonServer.defaults({
   static: "public",

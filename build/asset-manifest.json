@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/waiter-app/static/css/main.144fb430.css",
-    "main.js": "/waiter-app/static/js/main.428a3ebd.js",
-    "static/js/787.07c685f0.chunk.js": "/waiter-app/static/js/787.07c685f0.chunk.js",
-    "static/media/background.jpg": "/waiter-app/static/media/background.5c359866eb6dc5c715ba.jpg",
-    "index.html": "/waiter-app/index.html",
-    "main.144fb430.css.map": "/waiter-app/static/css/main.144fb430.css.map",
-    "main.428a3ebd.js.map": "/waiter-app/static/js/main.428a3ebd.js.map",
-    "787.07c685f0.chunk.js.map": "/waiter-app/static/js/787.07c685f0.chunk.js.map"
+    "main.css": "./static/css/main.d0ec7579.css",
+    "main.js": "./static/js/main.87253ee9.js",
+    "static/js/787.07c685f0.chunk.js": "./static/js/787.07c685f0.chunk.js",
+    "static/media/background.jpg": "./static/media/background.5c359866eb6dc5c715ba.jpg",
+    "index.html": "./index.html",
+    "main.d0ec7579.css.map": "./static/css/main.d0ec7579.css.map",
+    "main.87253ee9.js.map": "./static/js/main.87253ee9.js.map",
+    "787.07c685f0.chunk.js.map": "./static/js/787.07c685f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.144fb430.css",
-    "static/js/main.428a3ebd.js"
+    "static/css/main.d0ec7579.css",
+    "static/js/main.87253ee9.js"
   ]
 }
