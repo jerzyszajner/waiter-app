@@ -29,6 +29,13 @@
 .volume-slider:focus {
     outline: none;
     box-shadow: none;
+    border-color: #3eb935;
+}
+
+
+
+.form-control:focus {
+    border-color: #3eb935;
 }
 
 /* Webkit slider thumb */
