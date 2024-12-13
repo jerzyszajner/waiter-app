@@ -4,7 +4,14 @@ import cors from "cors"; // Import cors
 const server = jsonServer.create();
 const router = jsonServer.router("public/db/app.json");
 
-server.use(cors({ origin: "https://waiter-app-rbef.onrender.com" }));
+server.use(
+  cors({
+    origin: [
+      "https://waiter-react-app.netlify.app",
+      "https://waiter-app-rbef.onrender.com",
+    ],
+  })
+);
 
 const middlewares = jsonServer.defaults({
   static: "public",
